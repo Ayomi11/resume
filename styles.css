@@ -1,0 +1,278 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  position: relative;
+}
+
+h1{
+  margin-bottom: 3%;
+  font-family: "poppins", sans-serif;
+  color: #d92cf9;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+h3{
+  font-family: "poppins", sans-serif;
+  color: #d92cf9;
+  font-size: 1.5rem;
+}
+
+ h2{
+color: #fff;
+font-family: "poppins", sans-serif;
+margin-bottom: 3%;
+font-size: 3.0rem;
+}
+
+h4, h5{
+    font-size: 1.0rem;
+    font-family: "poppins", sans-serif;
+}
+
+p, .roles-list{
+  line-height: 1.5;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.0rem;
+  color: #43485c;
+}
+
+hr{
+  width: 70%;
+  margin: 50px auto;
+
+}
+
+strong{
+  font-family: "work sans",sans-serif;
+  font-size: 0.95rem;
+  color: black;
+
+}
+
+a:hover{
+  color:#fff;
+}
+
+
+.header{
+display: flex;
+align-items: center;
+justify-content: center;
+position: relative;
+background: url(../images/banner2.jpg)no-repeat;
+background-size: cover;
+background-position: center;
+height:890px;
+}
+
+.header:before{
+    position:absolute;
+    content: " ";
+    top:0;
+    left:0;
+    background:rgba(30, 44, 108, .99);
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+}
+
+.header-text h2 {
+    color: #fff;
+    font-size: 54px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+.header-text h2 span {color: #d92cf9;}
+.header-text p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 30px 0 60px;
+    letter-spacing: 1px;
+}
+
+/* NAVBAR SECTION */
+.container-fluid{
+    padding: 0 15px;
+
+}
+.navbar{
+  padding: 1% 14%;
+  border-bottom: transparent;
+  box-shadow: 0 3px 15px rgba(0,0,0,.2);
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.navbar-brand{
+  font-size: 1.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.nav-link span:hover{
+  color: #d92cf9;
+  transition: all 0.15s ease-in-out;
+}
+
+/* .top-area{
+  position: fixed;
+  z-index: 1;
+  width:100%;
+  border-bottom: transparent;
+  box-shadow: 0 3px 15px rgba(0,0,0,.2);
+  background-color: #fff; */
+
+
+#profile{
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.profile-img{
+}
+
+
+/* EDUCATION SECTION */
+
+#education{
+  background-color: #FAF3F3;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #999fb3;
+}
+.education-details, .description{text-align: left;}
+
+.horizontal-border {
+    display:  flex;
+    align-items: center;
+    padding: 26px 0 30px;
+}
+.horizontal-border i {
+    font-size:  10px;
+    color: #d92cf9;
+    margin-right:  5px;
+  }
+
+span.single-timeline-horizontal {
+    display:  inline-block;
+    background: #b2c1ce;
+    height:  1px;
+    width: 380px;
+}
+span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
+
+/* EXPERIENCE SECTION */
+
+#experience{
+  background-color: #FAF3F3;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.container{
+padding: 3% 8%;
+}
+
+.experience-details{
+  margin: 5% 0;
+}
+
+.experience-timeline{
+  margin: 0 15%;
+}
+
+.title,.roles-title{
+  color:#343A40;
+  font-weight:bold;
+  font-family: "poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+/* ABILITIES */
+
+#skills{
+  margin: 0 10%;
+  background-color: #Fff;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  align-items: center;
+  line-height: 2;
+}
+
+.skill-score{
+  margin-left: 35%;
+  color: #ECA3F5;
+}
+
+.skill-title{
+  font-family: 'poppins', sans-serif;
+  color: #43485c;
+  font-size: 0.9rem;
+}
+
+.skill-list, .roles-list{
+  list-style: none;
+}
+/* CONTACT SECTION */
+
+#contact{
+  text-align: center;
+  background-color: #151515;
+}
+
+.contact-me{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  color: #fff;
+}
+.contact-box{
+  padding:0 150px;
+}
+.single-contact-box {padding-top: 30px;}
+.contact-form  .form-group {
+    margin-bottom: 10px;
+}
+
+.contact-form .form-control {
+    padding: 25px;
+    font-size: 14px;
+    border: 1px solid #43485c;
+    border-radius: 0px;
+    outline: 0!important;
+    background: #151515;
+    color: #636a82;
+    resize: none;
+}
+
+.contact-links{
+  height: 300px;
+  padding: 250px 0 10px;
+}
+
+.social-icon{
+  padding: 10px 10px;
+  color: #8f8f8f;
+}
+
+.copyright{
+  color: #8f8f8f;
+  font-size: 0.75rem;
+  font-family: 'Lato', sans-serif;
+}
